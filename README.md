@@ -68,7 +68,7 @@ By the end of this project, you should be able to:
 
 - Open powershell as an administrator.
 
-  ![Alt text](/readme/image16.png)
+  ![Alt text](/images/image16.png)
 
 - Run the following command to install Chocolaty:
 
@@ -88,7 +88,7 @@ choco install flutter
 flutter doctor
 ```
 
-![Alt text](/readme/image5.png)
+![Alt text](/images/image5.png)
 
 - If you have any red checks, follow the flutter doctor instructions to fix them. Or follow the below checklist.
 
@@ -98,8 +98,8 @@ flutter doctor
 - [ ] Android Studio installed
   - Go to the [android studio](https://developer.android.com/studio) website and download the latest version.
 - [ ] Android SDK installed (Steps shown below)
-![Alt text](/readme/image13.png)
-![Alt text](/readme/image14.png)
+![Alt text](/images/image13.png)
+![Alt text](/images/image14.png)
 - [ ] Visual Studio Desktop development with C++ installed
   - You can Install it by following these steps:
     - Install Visual Studio from the following link: [Visual Studio](https://visualstudio.microsoft.com/downloads/)
@@ -109,7 +109,7 @@ flutter doctor
 ##### 1.2.2. MacOS (Using Homebrew)
 
 - Open the terminal.
-![Alt text](/readme/image15.png)
+![Alt text](/images/image15.png)
 - Run the following command to install Homebrew:
 
 ```bash
@@ -122,7 +122,7 @@ flutter doctor
 brew install flutter --cask
 ```
 
-![Alt text](/readme/image4.png)
+![Alt text](/images/image4.png)
 
 - Run Flutter Doctor to check if Flutter is installed properly:
 
@@ -130,7 +130,7 @@ brew install flutter --cask
 flutter doctor
 ```
 
-![Alt text](/readme/image5.png)
+![Alt text](/images/image5.png)
 
 - If you have any red checks, follow the flutter doctor instructions to fix them. Or follow the below checklist.
 
@@ -142,8 +142,8 @@ flutter doctor
 - [ ] Xcode installed
   - Go to the [app store](https://apps.apple.com/us/app/xcode/id497799835?mt=12) and download Xcode.
 - [ ] Android SDK installed
-![Alt text](/readme/image13.png)
-![Alt text](/readme/image14.png)
+![Alt text](/images/image13.png)
+![Alt text](/images/image14.png)
 - [ ] Xcode command line tools installed
   - Run the following command in the terminal
 
@@ -167,13 +167,13 @@ flutter doctor
 - Fork the repository by clicking the fork button on the top right corner of the repository page.
   - Click the fork Button
 
-  ![Image of forking the repository](./readme/image.png)
+  ![Image of forking the repository](./images/image.png)
 
   - Name the repo and click "Create fork"
-  ![Alt text](/readme/image25.png)
+  ![Alt text](/images/image25.png)
 
   - You should now have a copy of the repository on your own account.
-  ![Alt text](/readme/image26.png)
+  ![Alt text](/images/image26.png)
 
 ### Tutorial
 
@@ -184,12 +184,12 @@ flutter doctor
 - Open the terminal and navigate to the directory (also known as folder) where you want to clone the repository.
   - Make sure the path you choose has NO ARABIC LETTERS. This will cause errors.
     - On Mac:
-  ![Alt text](/readme/image17.png)
+  ![Alt text](/images/image17.png)
     - On Windows:
-  ![Alt text](/readme/image20.png)
+  ![Alt text](/images/image20.png)
 - Go to the repository page on **your own account** and click on the green code button.
 - Copy the link under the clone section.
-![Image of github](/readme/image1.png)
+![Image of github](/images/image1.png)
 - Run the following command inside of the opened terminal to clone the repository:
 
 ```bash
@@ -202,18 +202,18 @@ Example:
 git clone https://github.com/YOUR_NAME/Selection-Project.git
 ```
 
-![Alt text](./readme/image3.png)
+![Alt text](./images/image3.png)
 
 ##### 2.1.2. Add changes
 
 - Open the repository directory in VS Code.
   - The path must be INSIDE the cloned repository.
   - Click on File -> Open folder
-  ![Alt text](/readme/image21.png)
+  ![Alt text](/images/image21.png)
   - Select the repository folder.
-  ![Alt text](/readme/image22.png)
+  ![Alt text](/images/image22.png)
   - The repository should be opened in VS Code.
-  ![Alt text](/readme/image18.png)
+  ![Alt text](/images/image18.png)
   - To make sure, run the following command in the terminal INSIDE Vscode:
 
   ```bash
@@ -221,7 +221,7 @@ git clone https://github.com/YOUR_NAME/Selection-Project.git
   ```
 
   - The output should be similar to the following:
-  ![Alt text](/readme/image19.png)
+  ![Alt text](/images/image19.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -251,22 +251,22 @@ git commit -m "<commit-message>"
 git push
 ```
 
-![Alt text](/readme/image6.png)
+![Alt text](/images/image6.png)
 
 ##### 2.1.5. Create a pull request
 
 - Go to the repository page and click on the pull request button.
-![Alt text](/readme/image7.png)
+![Alt text](/images/image7.png)
 - Click on the new pull request button.
-![Alt text](/readme/image8.png)
+![Alt text](/images/image8.png)
 - Select the branch you want to merge into the main branch.
-![Alt text](/readme/image9.png)
+![Alt text](/images/image9.png)
 - Click on the create pull request button.
-![Alt text](/readme/image10.png)
+![Alt text](/images/image10.png)
 - Add a title and description for the pull request. Title should be in the following format: `<your-name> - <project-name>`.
-![Alt text](/readme/image11.png)
+![Alt text](/images/image11.png)
 - Click on the create pull request button.
-![Alt text](/readme/image12.png)
+![Alt text](/images/image12.png)
 
 #### 2.2. Dart
 
@@ -446,11 +446,11 @@ In this project, you will be building a Hangman Game! You will prompt the user t
 ### Requirements
 
 - Your output must look like this:
-  - ![Alt text](/readme/code2.png)
+  - ![Alt text](/images/code2.png)
   Failed to guess the word
-  - ![Alt text](/readme/code1.png)
+  - ![Alt text](/images/code1.png)
   Successfull
-  - ![Alt text](/readme/code.png)
+  - ![Alt text](/images/code.png)
 - All operations should be performed within the CLI.
 - The code should use a seperate function called 'guess.dart' (All requirements of this function are within the provided code)
 - The code should use a seperate function called 'hangman.dart' (Provided in code)
