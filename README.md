@@ -441,15 +441,15 @@ RegExp(r'[a-z]') matches any single lowercase letter. It is used in the Hangman 
 
 ## Project Overview
 
-In this project, you will be building a Hangman Game! You will prompt the user to predict a letter to guess a random word. The user will have only a limited guesses.
+In this project, you will be building a Hangman Game! You will prompt the user to predict a letter to guess a random word. The user will have only a limited guess.
 
 ### Requirements
 
 - Your output must look like this:
   - ![Alt text](/images/code2.png)
-  Failed to guess the word
+  - Failed to guess the word
   - ![Alt text](/images/code1.png)
-  Successfull
+  - Successfull
   - ![Alt text](/images/code.png)
 - All operations should be performed within the CLI.
 - The code should use a seperate function called 'guess.dart' (All requirements of this function are within the provided code)
