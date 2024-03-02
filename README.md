@@ -446,11 +446,11 @@ In this project, you will be building a Hangman Game! You will prompt the user t
 ### Requirements
 
 - Your output must look like this:
-  - ![Alt text](/images/code2.png)
+    ![Alt text](/images/code2.png)
   - Failed to guess the word
-  - ![Alt text](/images/code1.png)
+    ![Alt text](/images/code1.png)
   - Successfull
-  - ![Alt text](/images/code.png)
+    ![Alt text](/images/code.png)
 - All operations should be performed within the CLI.
 - The code should use a seperate function called 'guess.dart' (All requirements of this function are within the provided code)
 - The code should use a seperate function called 'hangman.dart' (Provided in code)
@@ -468,4 +468,3 @@ In this project, you will be building a Hangman Game! You will prompt the user t
 - The pull request title should be in the following format: `<your-name> - <project-name>`. You can check how to make a pull request in section [2.1.5. Create a pull request](#215-create-a-pull-request).
 - The pull request description should contain the following:
   - A description of the changes made.
-  - A screenshot of the app running in the terminal.
